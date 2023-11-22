@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Parametri">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="pPrenotazioni" maxOccurs="unbounded" minOccurs="1" type="pPrenotazioniType"/>
+            <xs:element name="pNet" maxOccurs="unbounded" minOccurs="1" type="pNetType"/>
+            <xs:element name="pDB" maxOccurs="unbounded" minOccurs="1" type="pDBType"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:complexType name="pPrenotazioniType">
+    <xs:sequence>
+        <xs:element name="altezzaTabella" type="xs:int"/>
+        <xs:element name="giorniPrecedentiN" type="xs:int"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pNetType">
+    <xs:sequence>
+        <xs:element name="indirizzoClient" type="xs:string"/>
+        <xs:element name="indirizzoServer" type="xs:string"/>
+        <xs:element name="portaLog" type="xs:int"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pDBType">
+    <xs:sequence>
+        <xs:element name="nomeUtenteDB" type="xs:string"/>
+        <xs:element name="passwordDB" type="xs:string"/>
+        <xs:element name="indirizzoDB" type="xs:string"/>
+        <xs:element name="databaseDB" type="xs:string"/>
+        <xs:element name="portaDB" type="xs:int"/>
+    </xs:sequence>
+</xs:complexType>
+</xs:schema>

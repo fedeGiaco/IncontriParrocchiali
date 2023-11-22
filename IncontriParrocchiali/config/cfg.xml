@@ -1,0 +1,18 @@
+<Parametri>
+  <pPrenotazioni>
+    <altezzaTabella>180</altezzaTabella>
+    <giorniPrecedentiN>7</giorniPrecedentiN>
+  </pPrenotazioni>
+  <pNet>
+    <indirizzoClient>localhost</indirizzoClient>
+    <indirizzoServer>localhost</indirizzoServer>
+    <portaLog>8080</portaLog>
+  </pNet>
+  <pDB>
+    <nomeUtenteDB>root</nomeUtenteDB>
+    <passwordDB></passwordDB>
+    <indirizzoDB>localhost</indirizzoDB>
+    <databaseDB>incontriparrocchiali</databaseDB>
+    <portaDB>3306</portaDB>
+  </pDB>
+</Parametri>
