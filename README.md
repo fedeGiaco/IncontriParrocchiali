@@ -1,4 +1,4 @@
 # IncontriParrocchiali
-Applicazione per la prenotazione di incontri parrocchiali in Java completa di server e log.
+Progetto di Programmazione Avanzata per Ingegneria Informatica 2021/22, UNIPI.
 
 Guarda la documentazione nel file "Documentazione Giacomelli.pdf"
